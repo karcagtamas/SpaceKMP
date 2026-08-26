@@ -39,6 +39,7 @@ kotlin {
             implementation(libs.ktor.client.android)
             implementation(libs.sqldelight.android.driver)
             implementation(libs.koin.androidx.compose)
+            implementation(libs.androidx.ui.text.google.fonts)
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
